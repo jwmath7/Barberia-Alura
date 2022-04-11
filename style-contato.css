@@ -1,0 +1,150 @@
+/* CSS DA PÁGINA DE CONTATO */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0px;
+}
+
+main {
+	margin: 10px 10px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:  #C78619;
+	text-decoration: underline;
+}
+
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	
+}
+
+.input-padrao {
+	display: block;
+	margin: 20px 0 20px 0;
+	padding: 10px 25px;
+	width: 50%;
+	border: 1px solid black;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.select {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0px 40px;
+}
+
+thead {
+	background: grey;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	font-size: 20px;
+	padding: 8px 15px;
+	border: 1px solid black;
+}
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px;
+}
+
+.copyright {
+	color: #BBBBBB;
+	font-size: 13px;
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+
+	.input-padrao {
+		display: inline-block;
+		padding: 10px 70px;
+	}
+
+	.enviar {
+		width: 60%;
+	}
+
+	fieldset {
+		margin: 20px 0;
+	}
+
+	}
